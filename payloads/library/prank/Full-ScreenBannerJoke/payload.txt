@@ -33,6 +33,7 @@ STRING " -OutFile "script.py"
 ENTER
 DELAY 500
 
-STRINGLN Start-Process python.exe -ArgumentList "script.py" -WindowStyle Hidden
+#STRINGLN Start-Process python.exe -ArgumentList "script.py" -WindowStyle Hidden 
+STRINGLN python ./script.py
 DELAY 1000
 ALT F4
